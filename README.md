@@ -1,4 +1,4 @@
-# AwesomeEdu
+Visit my live site Awesome Education which was built entirely with Angular https://evaspring111.github.io/EduApp2.0/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
