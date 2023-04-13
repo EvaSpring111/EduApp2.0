@@ -1,0 +1,37 @@
+<footer class="bg-dark text-center text-white">
+  <div class="container p-4 pb-0">
+       <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">AwesomeEdu</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+              aliquam voluptatem veniam, est atque cumque eum delectus sint!
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">USEFUL LINKS</h5>
+            <ul class="list-unstyled mb-0" *ngFor="let item of linksSocilaMedia">
+              <li>
+                <a href="{{item.href}}" target="_blank">{{item.icon}}</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">CONTACT</h5>
+            <ul class="list-unstyled" *ngFor="let item of linksSocilaMedia"s>
+              <li>
+                <a href="{{item.href}}" target="_blank">{{item.icon}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © {{data | date:'y'}} Copyright:
+    <a class="text-white" routerLink="/home">AwesomeEdu.com</a>
+  </div>
+
+</footer>

@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: palevioletred
+}
+
+a {
+  transition: color .8s ease-out;
+}
